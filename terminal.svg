@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <style>
+    .lbl{fill:#00e5ff;font-size:13px}
+    .val{fill:#e6f7ff;font-size:13px}
+    .dim{fill:#6b7a8f;font-size:13px}
+    .hd{fill:#00e5ff;font-size:13px;font-weight:bold}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .pulse{animation:pulse 2.4s infinite}
+    @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+  </style>
+  <rect width="920" height="430" rx="12" fill="#04060f" stroke="#00e5ff" stroke-opacity=".35"/>
+  <!-- title bar -->
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/><circle cx="44" cy="22" r="6" fill="#ffbd2e"/><circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="460" y="27" text-anchor="middle" class="dim">dikshant@embedded: ~/whoami</text>
+  <line x1="0" y1="40" x2="920" y2="40" stroke="#00e5ff" stroke-opacity=".15"/>
+
+  <!-- ===== left: MCU chip art ===== -->
+  <g transform="translate(40,90)">
+    <!-- traces -->
+    <g stroke="#00e5ff" stroke-width="1.2" opacity=".5">
+      <path d="M110 -20 v-25 M140 -20 v-30 M170 -20 v-25" fill="none"/>
+      <path d="M110 240 v25 M140 240 v30 M170 240 v25" fill="none"/>
+      <path d="M20 90 h-35 M20 120 h-40 M20 150 h-35" fill="none"/>
+      <path d="M260 90 h35 M260 120 h40 M260 150 h35" fill="none"/>
+    </g>
+    <circle cx="110" cy="-50" r="3" fill="#00e5ff" class="pulse"/>
+    <circle cx="140" cy="-55" r="3" fill="#00e5ff" class="pulse" style="animation-delay:.5s"/>
+    <circle cx="170" cy="-50" r="3" fill="#00e5ff" class="pulse" style="animation-delay:1s"/>
+    <circle cx="-20" cy="120" r="3" fill="#00e5ff" class="pulse" style="animation-delay:.7s"/>
+    <circle cx="305" cy="120" r="3" fill="#00e5ff" class="pulse" style="animation-delay:1.4s"/>
+    <circle cx="140" cy="275" r="3" fill="#00e5ff" class="pulse" style="animation-delay:.3s"/>
+    <!-- pins -->
+    <g fill="#1a2a3a">
+      <rect x="35" y="-18" width="210" height="14" rx="2"/>
+      <rect x="35" y="224" width="210" height="14" rx="2"/>
+      <rect x="16" y="35" width="14" height="150" rx="2"/>
+      <rect x="250" y="35" width="14" height="150" rx="2"/>
+    </g>
+    <!-- body -->
+    <rect x="28" y="-4" width="224" height="228" rx="8" fill="#0a1424" stroke="#00e5ff" stroke-opacity=".6" stroke-width="1.5"/>
+    <rect x="46" y="14" width="188" height="192" rx="5" fill="none" stroke="#00e5ff" stroke-opacity=".2"/>
+    <circle cx="56" cy="26" r="4" fill="#04060f" stroke="#00e5ff" stroke-opacity=".4"/>
+    <text x="140" y="86" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="bold">DA-3001</text>
+    <text x="140" y="112" text-anchor="middle" class="lbl" letter-spacing="3" font-size="12">EMBEDDED SYSTEMS</text>
+    <text x="140" y="134" text-anchor="middle" class="dim" font-size="11">ARM CORTEX-M · 32-bit</text>
+    <text x="140" y="168" text-anchor="middle" class="lbl" font-size="11" opacity=".7">C · C++ · RTOS · KiCad</text>
+    <text x="140" y="188" text-anchor="middle" class="dim" font-size="10">DARMSTADT · DE</text>
+  </g>
+
+  <!-- ===== right: neofetch dump ===== -->
+  <g transform="translate(400,78)">
+    <text y="0"   class="hd">dikshant@embedded</text>
+    <text y="14"  class="dim">─────────────────────────────────────────────</text>
+    <text y="34"  class="lbl">Role:      <tspan class="val">Embedded Firmware Engineer (M.Sc. student)</tspan></text>
+    <text y="54"  class="lbl">Host:      <tspan class="val">Hochschule Darmstadt · Embedded Systems</tspan></text>
+    <text y="74"  class="lbl">Uptime:    <tspan class="val">3+ years industry firmware</tspan></text>
+    <text y="94"  class="lbl">Kernel:    <tspan class="val">ErikaOS (OSEK) · FreeRTOS · bare-metal</tspan></text>
+    <text y="114" class="lbl">CPU:       <tspan class="val">Cortex-M · PSoC5LP · STM32N6 · nRF52840 · ESP32</tspan></text>
+    <text y="134" class="lbl">GPU:       <tspan class="val">Neural-ART NPU — runs Doom 🕹</tspan></text>
+    <text y="154" class="lbl">Shell:     <tspan class="val">C · C++ · Python · SystemVerilog</tspan></text>
+    <text y="174" class="lbl">Packages:  <tspan class="val">UART I2C SPI CAN BLE Zigbee LoRa MQTT</tspan></text>
+    <text y="194" class="lbl">Hardware:  <tspan class="val">KiCad · 4-layer PCB · JTAG/SWD · scope</tspan></text>
+    <text y="214" class="lbl">Languages: <tspan class="val">English C1 · Deutsch B1 · Hindi native</tspan></text>
+    <text y="234" class="lbl">Seeking:   <tspan class="val">6-month embedded internship · Germany</tspan></text>
+    <text y="254" class="dim">─────────────────────────────────────────────</text>
+    <text y="274" class="lbl">Portfolio: <tspan class="val">dikshant-agrawal.github.io</tspan></text>
+    <text y="294" class="lbl">Contact:   <tspan class="val">agrawaldikshant3001@gmail.com</tspan></text>
+    <text y="322" class="hd">$ <tspan class="val">./explore --repos</tspan><tspan class="cur" fill="#00e5ff"> █</tspan></text>
+  </g>
+</svg>

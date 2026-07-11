@@ -1,16 +1,45 @@
-## Hi there 👋
+<img src="terminal.svg" alt="dikshant@embedded — Embedded Firmware Engineer, M.Sc. Embedded Systems at Hochschule Darmstadt" width="100%"/>
 
-<!--
-**dikshant-agrawal/dikshant-agrawal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://dikshant-agrawal.github.io"><img src="https://img.shields.io/badge/Portfolio-dikshant--agrawal.github.io-00e5ff?style=flat-square&logo=githubpages&logoColor=white&labelColor=04060f"/></a>
+  <a href="https://www.linkedin.com/in/agrawaldikshant/"><img src="https://img.shields.io/badge/LinkedIn-agrawaldikshant-00e5ff?style=flat-square&logo=linkedin&logoColor=white&labelColor=04060f"/></a>
+  <a href="mailto:agrawaldikshant3001@gmail.com"><img src="https://img.shields.io/badge/Email-contact-00e5ff?style=flat-square&logo=gmail&logoColor=white&labelColor=04060f"/></a>
+</p>
 
-Here are some ideas to get you started:
+## Featured work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<table>
+<tr>
+<td width="40%">
+  <a href="https://github.com/dikshant-agrawal/Doom_STM32N6">
+    <img src="https://github.com/dikshant-agrawal/Doom_STM32N6/raw/main/doc/doom_stm32n6.gif" alt="Doom running on STM32N6 NPU" width="100%"/>
+  </a>
+  <p align="center"><b><a href="https://github.com/dikshant-agrawal/Doom_STM32N6">Neural network playing Doom on the STM32N6 NPU</a></b><br/>PyTorch → int8 → real-time on-device inference</p>
+</td>
+<td>
+
+- 🛞 [**egas-pedal-control**](https://github.com/dikshant-agrawal/egas-pedal-control) — E-Gas electronic throttle: joystick→ADC→RTE→PWM, AUTOSAR-style SWCs on Erika RTOS
+- 📡 [**xbee-zigbee-driver**](https://github.com/dikshant-agrawal/xbee-zigbee-driver) — Zigbee CDD for a fleet of experimental student cars *(architecture public, source on request)*
+- 🔬 [**bandpass-amplifier-pcb**](https://github.com/dikshant-agrawal/bandpass-amplifier-pcb) — hand-calculated 4-layer KiCad PCB, DRC-clean, breadboard-verified
+- ⏱️ [**timing-analyzer-api**](https://github.com/dikshant-agrawal/timing-analyzer-api) — cycle-accurate firmware profiling via DWT/SysTick, OO-style C
+- 🎛️ [**nios2-max10-experiments**](https://github.com/dikshant-agrawal/nios2-max10-experiments) — custom Avalon peripherals in SystemVerilog + Nios II soft-core
+- ⏰ [**electronic-clock-rte**](https://github.com/dikshant-agrawal/electronic-clock-rte) — ECU-style RTE architecture, live demo GIF inside
+
+**→ [All projects, with case studies, on my portfolio](https://dikshant-agrawal.github.io/projects.html)**
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C-04060f?style=flat-square&logo=c&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/C++-04060f?style=flat-square&logo=cplusplus&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/Python-04060f?style=flat-square&logo=python&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/ARM_Cortex--M-04060f?style=flat-square&logo=arm&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/RTOS-04060f?style=flat-square&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/AUTOSAR_RTE-04060f?style=flat-square&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/KiCad-04060f?style=flat-square&logo=kicad&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/MATLAB-04060f?style=flat-square&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/FPGA-04060f?style=flat-square&logoColor=00e5ff"/>
+  <img src="https://img.shields.io/badge/Edge_AI-04060f?style=flat-square&logo=pytorch&logoColor=00e5ff"/>
+</p>
