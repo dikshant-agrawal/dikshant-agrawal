@@ -65,11 +65,19 @@
     <polygon points="170,76 270,126 170,176 70,126" fill="#0c1830" stroke="#00e5ff" stroke-opacity=".25"/>
     <circle cx="92" cy="132" r="4" fill="#04060f" stroke="#00e5ff" stroke-opacity=".5"/>
 
-    <!-- laser-etched markings (isometric) -->
-    <g transform="matrix(0.894,0.447,-0.894,0.447,170,120)" font-family="'JetBrains Mono',Consolas,monospace">
-      <text x="0" y="-12" text-anchor="middle" fill="#e6f7ff" font-size="15" font-weight="bold" letter-spacing="1">DIKSHANT AGRAWAL</text>
-      <text x="0" y="6" text-anchor="middle" fill="#00e5ff" font-size="9" letter-spacing="3">EMBEDDED SYSTEMS</text>
-      <text x="0" y="21" text-anchor="middle" fill="#6b7a8f" font-size="8" letter-spacing="1">DA-3001 · ARM CORTEX-M · DE</text>
+    <!-- etched edge-AI core (isometric neural net) -->
+    <g transform="matrix(0.894,0.447,-0.894,0.447,170,120)">
+      <g stroke="#00e5ff" stroke-width="1" stroke-opacity=".55" fill="none">
+        <path d="M-42 -18 L0 -26 M-42 -18 L0 0 M-42 -18 L0 26 M-42 18 L0 -26 M-42 18 L0 0 M-42 18 L0 26"/>
+        <path d="M0 -26 L42 -12 M0 -26 L42 12 M0 0 L42 -12 M0 0 L42 12 M0 26 L42 -12 M0 26 L42 12"/>
+      </g>
+      <g fill="#0c1830" stroke="#00e5ff" stroke-width="1.4">
+        <circle cx="-42" cy="-18" r="6"/><circle cx="-42" cy="18" r="6"/>
+        <circle cx="0" cy="-26" r="6"/><circle cx="0" cy="0" r="6"/><circle cx="0" cy="26" r="6"/>
+        <circle cx="42" cy="-12" r="6"/><circle cx="42" cy="12" r="6"/>
+      </g>
+      <circle cx="0" cy="0" r="2.4" fill="#00e5ff"/>
+      <text x="0" y="44" text-anchor="middle" fill="#6b7a8f" font-size="8" letter-spacing="3" font-family="monospace">EDGE-AI CORE</text>
     </g>
 
     <!-- footer strip -->
