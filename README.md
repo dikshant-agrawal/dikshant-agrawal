@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://dikshant-agrawal.github.io"><img src="https://img.shields.io/badge/Portfolio-dikshant--agrawal.github.io-00e5ff?style=flat-square&logo=githubpages&logoColor=white&labelColor=04060f"/></a>
   <a href="https://www.linkedin.com/in/agrawaldikshant/"><img src="https://img.shields.io/badge/LinkedIn-agrawaldikshant-00e5ff?style=flat-square&logo=linkedin&logoColor=white&labelColor=04060f"/></a>
-  <a href="mailto:agrawaldikshant3001@gmail.com"><img src="https://img.shields.io/badge/Email-contact-00e5ff?style=flat-square&logo=gmail&logoColor=white&labelColor=04060f"/></a>
+  <a href="https://dikshant-agrawal.github.io/contact.html"><img src="https://img.shields.io/badge/Contact-get%20in%20touch-00e5ff?style=flat-square&logo=gmail&logoColor=white&labelColor=04060f"/></a>
 </p>
 
 ## Telemetry
