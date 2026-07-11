@@ -1,4 +1,4 @@
-<img src="terminal.svg?v=3" alt="dikshant@embedded — Embedded Firmware Engineer, M.Sc. Embedded Systems at Hochschule Darmstadt" width="100%"/>
+<img src="terminal.svg?v=4" alt="dikshant@embedded — Embedded Firmware Engineer, M.Sc. Embedded Systems at Hochschule Darmstadt" width="100%"/>
 
 <p align="center">
   <a href="https://dikshant-agrawal.github.io"><img src="https://img.shields.io/badge/Portfolio-dikshant--agrawal.github.io-00e5ff?style=flat-square&logo=githubpages&logoColor=white&labelColor=04060f"/></a>
